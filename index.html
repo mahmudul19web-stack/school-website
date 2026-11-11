@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greenfield High School | Home</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Our custom stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR: email, phone, login link ============ -->
+<div class="topbar">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <div>
+      <a href="mailto:info@greenfieldschool.edu.bd"><i class="bi bi-envelope"></i>rupom44@greenfieldschool.edu.bd</a>
+      <a href="tel:+8801700000000" class="ms-3"><i class="bi bi-telephone"></i>+880 01998-572019</a>
+    </div>
+    <div>
+      <a href="login.html"><i class="bi bi-box-arrow-in-right"></i>Login</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NAVIGATION: logo + menu links ============ -->
+<nav class="navbar navbar-expand-lg main-nav">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="index.html">Green<span>field</span> High School</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="teacher.html">Teacher</a></li>
+        <li class="nav-item"><a class="nav-link" href="student.html">Student</a></li>
+        <li class="nav-item"><a class="nav-link" href="result.html">Result</a></li>
+        <li class="nav-item"><a class="nav-link" href="academic.html">Academic</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ BANNER SECTION: full-wide sliding carousel, 3 images ============ -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="banner-slide d-flex align-items-center" style="background-image:url('assets/school.jpg');">
+        <div class="container">
+          <div class="banner-caption">
+            <h1>Welcome to Greenfield High School</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, building bright futures since 1985.</p>
+            <a href="about.html" class="btn btn-gold">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="banner-slide d-flex align-items-center" style="background-image:url('https://picsum.photos/seed/school-classroom/1600/800');">
+        <div class="container">
+          <div class="banner-caption">
+            <h1>Quality Education For Every Student</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <a href="academic.html" class="btn btn-gold">Our Academics</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="banner-slide d-flex align-items-center" style="background-image:url('https://picsum.photos/seed/school-students/1600/800');">
+        <div class="container">
+          <div class="banner-caption">
+            <h1>Shaping Tomorrow's Leaders</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna aliqua.</p>
+            <a href="student.html" class="btn btn-gold">Meet Our Students</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- ============ SCHOOL HISTORY SECTION ============ -->
+<section class="section-pad history-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <img src="https://picsum.photos/seed/school-history/700/460" class="img-fluid rounded" alt="School history">
+      </div>
+      <div class="col-lg-6">
+        <div class="section-title">
+          <h2>Our History</h2>
+          <p>A journey of excellence</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Founded in 1985, Greenfield High School has grown from a single classroom to one of the most respected institutions in the region, nurturing thousands of students over four decades.</p>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="about.html" class="btn btn-outline-navy">Read Full History</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACADEMIC SECTION (Bootstrap Cards) ============ -->
+<section class="section-pad" style="background-color:#f1efe8;">
+  <div class="container">
+    <div class="section-title text-center mx-auto" style="max-width:600px;">
+      <h2 style="border-left:none; padding-left:0;">Our Academic Departments</h2>
+      <p style="padding-left:0;">Lorem ipsum dolor sit amet consectetur</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="school-card">
+          <img src="https://picsum.photos/seed/academic-science/500/320" alt="Science Department">
+          <div class="card-body">
+            <h5 class="card-title">Science Department</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="school-card">
+          <img src="https://picsum.photos/seed/academic-arts/500/320" alt="Arts Department">
+          <div class="card-body">
+            <h5 class="card-title">Humanities &amp; Arts</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="school-card">
+          <img src="https://picsum.photos/seed/academic-commerce/500/320" alt="Commerce Department">
+          <div class="card-body">
+            <h5 class="card-title">Commerce Department</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEACHER SECTION (Bootstrap Cards) ============ -->
+<section class="section-pad">
+  <div class="container">
+    <div class="section-title text-center mx-auto" style="max-width:600px;">
+      <h2 style="border-left:none; padding-left:0;">Meet Our Teachers</h2>
+      <p style="padding-left:0;">Lorem ipsum dolor sit amet consectetur</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-3 col-sm-6">
+        <div class="school-card text-center">
+          <img src="https://i.pravatar.cc/400?img=12" alt="Teacher">
+          <div class="card-body">
+            <h5 class="card-title mb-0">Md. Rafiqul Islam</h5>
+            <span class="card-role">Mathematics</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="school-card text-center">
+          <img src="https://i.pravatar.cc/400?img=32" alt="Teacher">
+          <div class="card-body">
+            <h5 class="card-title mb-0">Sabrina Akter</h5>
+            <span class="card-role">English</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="school-card text-center">
+          <img src="https://i.pravatar.cc/400?img=51" alt="Teacher">
+          <div class="card-body">
+            <h5 class="card-title mb-0">Kamal Hossain</h5>
+            <span class="card-role">Bangla</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="school-card text-center">
+          <img src="https://i.pravatar.cc/400?img=44" alt="Teacher">
+          <div class="card-body">
+            <h5 class="card-title mb-0">Nusrat Jahan</h5>
+            <span class="card-role">Science</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOTICE SECTION ============ -->
+<section class="section-pad-sm" style="background-color:#f1efe8;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Notice Board</h2>
+      <p>Latest announcements from the school</p>
+    </div>
+    <div class="notice-box d-flex align-items-center">
+      <span class="notice-date">12 Sep</span>
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Annual sports day schedule has been published.</span>
+    </div>
+    <div class="notice-box d-flex align-items-center">
+      <span class="notice-date">05 Sep</span>
+      <span>Sed do eiusmod tempor incididunt ut labore. Half-yearly examination routine is now available.</span>
+    </div>
+    <div class="notice-box d-flex align-items-center">
+      <span class="notice-date">28 Aug</span>
+      <span>Ut enim ad minim veniam, quis nostrud exercitation. Admission circular for new academic year released.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIG FOOTER SECTION ============ -->
+<footer class="big-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <h5>Greenfield High School</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="teacher.html">Teacher</a></li>
+          <li><a href="student.html">Student</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h5>More</h5>
+        <ul>
+          <li><a href="result.html">Result</a></li>
+          <li><a href="academic.html">Academic</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h5>Contact Us</h5>
+        <ul>
+          <li><i class="bi bi-geo-alt me-2"></i>123 School Road, Dhaka, Bangladesh</li>
+          <li><i class="bi bi-envelope me-2"></i>rupom44@greenfieldschool.edu.bd</li>
+          <li><i class="bi bi-telephone me-2"></i>+880 01998-572019</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ============ SMALL FOOTER / COPYRIGHT SECTION ============ -->
+<div class="footer-bottom text-center">
+  <div class="container">
+    &copy; 2026 Greenfield High School. All rights reserved.
+  </div>
+</div>
+
+<!-- Bootstrap Bundle JS (only used for carousel/navbar behavior, no custom JS) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
